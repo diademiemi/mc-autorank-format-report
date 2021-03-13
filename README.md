@@ -8,6 +8,7 @@ In the examples/ directory in this repository, there are fake backups, userdata 
 
 ### HOW TO USE
 
+Run `pip install -r requirements.txt` before continuing.  
 Modify the .env file in this directory and change the values to the proper locations for your setup.  You can then run the command, it'll run on the latest files.  
 I would recommend scheduling your server to take a backup a bit before midnight, and having this script run when it's done. This script will automatically check if it should create reports other than the daily one.  
 If the day is a saturday, the script will also generate a weekly report. If it is the last day of the month, it will generate a monthly report.  
